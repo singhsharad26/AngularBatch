@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1{background-color: aquamarine;}
+        </style>            
+    </head>
+    <body>
+      <h1> Welcome to Javascript class </h1>
+      <script>
+          //to get the h2 element in document
+          var headElement = document.getElementsByTagName('h1')[0];
+          console.log("headElement" + headElement.innerHTML);
+          var friends = ['Jason','Sam','Sweta'];
+          //below is object literal declartion obj1,obj2
+          var obj1 ={
+              name : "Sharad",age :20
+          }
+          var obj2 = {
+              name : "Jason"
+          }
+          obj2.age = 14;
+          var frnd = [obj1,obj2,'Sam',10];
+          //log code( within curly braces) 
+          function fn(){
+              var game ="IPL";
+            console.log("inside function");
+          }
+          for(var i=0;i<4;i++)
+          {
+              console.log(i);
+          }
+          var h1event = document.getElementsByTagName("h1")[0];
+          h1event.onclick = function(){//this is anonymous function
+              console.log("h1 clicked");
+          }
+          function read(book1,book2)
+          {
+              console.log(book1 +" "+book2);
+          }
+          function read1(book1,book2 = 'javascript')
+          {
+              console.log(book1 +" "+book2);
+              //day 3
+              return book1+' '+book2//added this to eliminate undefined word on console
+          }
+      </script>
+    </body>
+</html>

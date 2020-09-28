@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>         
+    </head>
+    <body>
+      <script>
+          console.log(movieName);
+          var movieName = "Lost world";
+          var movieName1 ="Jurassic Park";
+          console.log(movieName);
+
+          function checkMovie(){
+              console.log("movie "+movieName1);
+              var movieName1 = 'angrezi medium';//below will refer to this variable not the global one.
+              console.log("checkMovie "+movieName1);
+              checkMovie1();
+          }
+          function checkMovie1(){
+            console.log("chkmovie1 "+movieName1);
+              movieName1 = "mib";
+              console.log(movieName1);
+          }
+          console.log(movieName1);//jurassic park(global)
+          checkMovie();
+          console.log(movieName1);//after execution of checkMovie1 this will become mib
+      </script>
+      
+    </body>
+</html>

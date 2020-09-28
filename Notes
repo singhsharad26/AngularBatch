@@ -1,0 +1,52 @@
+--Day 1 21st Sep 2020
+
+Below topics will be covered :
+Javascripts
+TypeScripts
+Observals,reactive programming
+Angular
+
+--build/create html editor
+Visual studio code
+
+--jsonplaceholder.typicode.com
+
+--1. creating workspace and simple html file and using javascripts
+
+--create username on GitHub
+
+--Day 2 22-Sep-2020
+
+--Javascripts Variables
+
+--Functions in Javascripts
+
+--Day 3 23-Sep-2020
+
+--removing undefined on console
+--use of js file in project
+
+--Primitive data types
+null,undefined
+
+--complex data types
+
+-->To share information from one page to another
+lot of functions being called are callback funtions
+--Callback funtion
+	A JavaScript Callback Function is a function that is passed as a parameter to another JavaScript function, 
+	and the callback function is run inside of the function it was passed into. JavaScript Callback Functions can be used synchronously or asynchronously
+	
+--sample for Callback Functions can be used synchronously or asynchronously
+
+--Day 4 24-Sep-2020
+
+Execution context = creation phase and execution phase
+
+--Day 5 25-Sep-2020
+
+--Repeat of 24th and further explanation on Execution context
+
+--Day 6 28-Sep-2020
+
+--Github usage
